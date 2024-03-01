@@ -1,0 +1,21 @@
+.radio-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(117, 216, 108);
+    padding: 3rem;
+    label{
+        font-size: x-large;
+        font-weight: 700;
+    }
+    input {
+        width: 2rem;
+        height: 2rem;
+    }
+    p{
+        font-size: x-large;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,27 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(0, 255, 255);
+    padding: 3rem;
+
+    .text-area{
+        background-color: aquamarine;
+        height: 5rem;
+        width: 30rem;
+        resize: none;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: larger;
+        font-weight: bold;
+    }
+    .add-btn{
+        padding: 1rem;
+        font-size: larger;
+        font-weight: bold;
+        height: fit-content;
+        width: fit-content;
+    }
+}

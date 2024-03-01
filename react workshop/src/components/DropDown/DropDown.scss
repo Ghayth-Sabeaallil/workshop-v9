@@ -1,0 +1,10 @@
+.car-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .drop{
+        width: fit-content;
+        height: fit-content;
+        font-size: xx-large;
+    }
+}

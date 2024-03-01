@@ -1,0 +1,17 @@
+.check-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+    label{
+        font-size: x-large;
+        font-weight: 700;
+        padding-bottom:  1em;
+    }
+    input {
+        width: 2rem;
+        height: 2rem;
+    }
+}

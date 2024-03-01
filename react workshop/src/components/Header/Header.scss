@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    h1{
+        font-size: xx-large;
+        font-weight: 600;
+    }
+    h1:hover{
+        background-color: bisque;
+    }
+  }
+  

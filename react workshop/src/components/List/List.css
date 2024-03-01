@@ -1,0 +1,26 @@
+.list-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(0, 255, 255);
+  padding: 3rem;
+}
+.list-dev .list-box {
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid salmon;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.list-dev .list-box li {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 4rem;
+}
+
+/*# sourceMappingURL=List.css.map */
