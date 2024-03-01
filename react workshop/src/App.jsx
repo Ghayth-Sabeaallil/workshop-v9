@@ -28,7 +28,6 @@ function App() {
       <Radio />
       <DropDown dataCar={cars} />
       <ToDo />
-      <DropDown dataCar={cars} />
       <ColorBox dataColor={color} />
     </>
   )

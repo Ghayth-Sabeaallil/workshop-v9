@@ -6,10 +6,13 @@ let nextId = 0;
 
 const Add = ({arr}) => {
     return (<>
-      {arr.map(artist => (
-          <li key={artist.id}>{artist.name}</li>
+      {arr.map(list => (
+          <li key={list.id} onClick={del}>{list.name}</li>
         ))}
     </>)
+}
+function del(e){
+   e.target.remove();
 }
 
 const ToDo = () => {

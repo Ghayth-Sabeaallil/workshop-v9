@@ -12,12 +12,12 @@ import "./RepeatText.css"
     )
 }*/
 const RepeatText = ({ count, text }) => {
-    const ww = Array.from({length : count}, (index) => (
-        <p key={index}>{text}</p>
+    const ww = Array.from({length : count}, () => (
+        <p key={length++}>{text}</p>
     ));
 
     return (<>
-    <div className="text-box"><span>{ww}</span></div>
+    <div className="text-box" key="key1"><span key="key">{ww}</span></div>
     </>
     )
 }
